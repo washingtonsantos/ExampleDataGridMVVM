@@ -1,0 +1,15 @@
+﻿<Window x:Class="ExampleDataGridMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExampleDataGridMVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Height="50" HorizontalAlignment="Center" Margin="10"
+                    Command="{Binding DataGridExample1Command}">DataGrid Example 1</Button>
+        </StackPanel>
+    </Grid>
+</Window>
